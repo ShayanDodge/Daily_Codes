@@ -1,0 +1,5 @@
+name = input ('please enter your name = ')
+print("the length of your name is",len(name))
+print("the first char is =", name[0])
+print("the last char is =", name[len(name)-1])
+print("the chars between 2 and 5 are =", name[2:5])
