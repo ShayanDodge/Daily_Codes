@@ -13,6 +13,3 @@ for i in range(totalThrows) :
 # 
 pi = 4.0 * validThrows / totalThrows
 print("The estimated pi is :", pi)
-
-
-
