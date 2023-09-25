@@ -10,4 +10,7 @@ with Image.open('python1.png') as im:
         images.append(frame)
 
         # Save the animated GIF
-        images[0].save('animation.gif', save_all=True, append_images=[images[1]], duration=200, loop=0)
+        images[0].save('animation.gif', 
+                       save_all=True, 
+                       append_images=[images[1]], 
+                       duration=200, loop=0)
