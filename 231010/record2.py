@@ -3,9 +3,9 @@ with open ("data2.txt" , "r") as infile:
     country = []
     population = []
     while line != "":
-        temp = line.split(":")
-        country.append(temp[0])
-        population.append(temp[1])
+        tempC, tempP = line.split(":")
+        country.append(tempC.strip())
+        population.append(tempP.strip())
         line = infile.readline()
 
 for i in range(len(country)):
