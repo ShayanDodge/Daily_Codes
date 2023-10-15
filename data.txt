@@ -1,3 +1,0 @@
-name,number,address
-ali!,6465115,tehran
-hosein,34135136,karaj
