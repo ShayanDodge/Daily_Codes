@@ -1,0 +1,6 @@
+name = input("please enter your name = ")
+name = name.strip()
+print(name[0].upper()+name[1:].lower())
+print(name.replace("a","@"))
+print(name.startswith("s"))
+print(name.find("a",3,5))
